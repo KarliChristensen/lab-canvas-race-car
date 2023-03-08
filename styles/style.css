@@ -1,26 +1,26 @@
 body {
   padding: 0;
+  margin: 0;
   text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
 
-.game-intro {
-  float: left;
-  padding: 0% 10%;
+#game-board {
+  border: 5px solid black;
+  background-image: url(/images/road.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.game-intro p {
-  font-size: 18px;
-  font-family: "Verdana"
+#token {
+  display: none;
 }
-
-.logo-img {
-  width: 350px;
-}
-
-.arrows-img {
-  width: 150px;
-}
-
+  
 body button {
   font-size: 30px;
   background-color: #870007;
@@ -30,9 +30,4 @@ body button {
   box-shadow: 0;
   border-radius: 5px;
   margin-bottom: 20px;
-}
-
-#game-board {
-    float: left;
-    padding: 20px 0px;
 }
