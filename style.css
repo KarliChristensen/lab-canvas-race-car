@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#canvas1 {
+  border: 5px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+  background-image: url(/images/fwsr0d89wq661.jpg);
+  background-size: 100%;
+}
+
+.dn {
+  display: none;
+}
+
+.charBtn {
+    width: 80px;
+    height: 80px;
+    border: 5px solid black;
+}
+/*
+#charBtn1 {
+}
+
+#charBtn2 {
+}
+
+#charBtn3 {
+}
+
+#charBtn4 {
+}
+*/
+#popUp {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(+170%, -50%);
+    height: 600px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.377);
+    z-index: 1;
+}
+
+.popUpDiv {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 12px 12px 12px;
+
+}
